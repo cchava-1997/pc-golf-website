@@ -1,0 +1,119 @@
+# Multitech Golf Website
+
+## Project Overview
+This project is the Multitech Golf Website, designed to showcase golf products in a sophisticated, modular, and responsive way. The project is built using React with a focus on component reusability and a well-defined design system.
+
+## Key Features
+- **Modular Component Structure**: All components are self-contained to ensure reusability and maintainability.
+- **Design System**: A centralized design system for consistent styling across the entire application, including colors, typography, and reusable elements.
+- **Responsive Design**: Components are built to adapt seamlessly across desktop, tablet, and mobile screens using SCSS.
+
+## Project Structure
+The project follows a structured folder layout to maintain modularity:
+- **public/**: Static assets like the root HTML file, images, and the favicon.
+- **src/**: Contains all application code.
+  - **assets/**: Images, fonts, and global styles.
+  - **components/**: Modular components, further divided by features and shared elements.
+  - **context/**: Shared state management using React Context.
+  - **design-system/**: Centralized design system including colors, typography, spacing, and theming.
+  - **hooks/**: Custom hooks for managing state, responsiveness, and scrolling behaviors.
+  - **layouts/**: Layout components like the main layout used across multiple pages.
+  - **pages/**: High-level pages that bring various components together.
+- **App.js & index.js**: Entry points for the React application and setting up global settings.
+
+## Guidelines for Developing New Components
+- **Adhere to Modular Design**: Each component should be self-contained with its logic, styles, and assets. Place the component in the `components/` folder under the relevant feature section.
+- **Follow the Design System**: Utilize existing color and typography values from `design-system/colors.js` and `design-system/typography.js`. This helps maintain consistency across all components.
+- **Use SCSS Modules**: Create styles for each component using SCSS modules to ensure that styles are scoped locally and prevent global conflicts.
+- **Reusability**: Ensure that components are reusable wherever possible. Use shared components such as `Button.js`, `InputField.js`, etc., to avoid repeating the same functionality.
+- **Media Queries for Responsiveness**: Use mixins from `assets/styles/mixins.scss` to add responsive behaviors so that the application looks great on all screen sizes.
+- **Document Changes**: Update `README.md` if you add significant new features or components, especially if they introduce new patterns or conventions.
+# Multitech Golf Website
+
+## Project Overview
+This project is the Multitech Golf Website, designed to showcase golf products in a sophisticated, modular, and responsive way. The project is built using React with a focus on component reusability and a well-defined design system.
+
+## Key Features
+- **Modular Component Structure**: All components are self-contained to ensure reusability and maintainability.
+- **Design System**: A centralized design system for consistent styling across the entire application, including colors, typography, and reusable elements.
+- **Responsive Design**: Components are built to adapt seamlessly across desktop, tablet, and mobile screens using SCSS.
+
+## Project Structure
+The project follows a structured folder layout to maintain modularity:
+- **public/**: Static assets like the root HTML file, images, and the favicon.
+- **src/**: Contains all application code.
+  - **assets/**: Images, fonts, and global styles.
+  - **components/**: Modular components, further divided by features and shared elements.
+  - **context/**: Shared state management using React Context.
+  - **design-system/**: Centralized design system including colors, typography, spacing, and theming.
+  - **hooks/**: Custom hooks for managing state, responsiveness, and scrolling behaviors.
+  - **layouts/**: Layout components like the main layout used across multiple pages.
+  - **pages/**: High-level pages that bring various components together.
+- **App.js & index.js**: Entry points for the React application and setting up global settings.
+
+## Guidelines for Developing New Components
+- **Adhere to Modular Design**: Each component should be self-contained with its logic, styles, and assets. Place the component in the `components/` folder under the relevant feature section.
+- **Follow the Design System**: Utilize existing color and typography values from `design-system/colors.js` and `design-system/typography.js`. This helps maintain consistency across all components.
+- **Use SCSS Modules**: Create styles for each component using SCSS modules to ensure that styles are scoped locally and prevent global conflicts.
+- **Reusability**: Ensure that components are reusable wherever possible. Use shared components such as `Button.js`, `InputField.js`, etc., to avoid repeating the same functionality.
+- **Media Queries for Responsiveness**: Use mixins from `assets/styles/mixins.scss` to add responsive behaviors so that the application looks great on all screen sizes.
+- **Document Changes**: Update `README.md` if you add significant new features or components, especially if they introduce new patterns or conventions.
+# Multitech Golf Website
+
+## Project Overview
+This project is the Multitech Golf Website, designed to showcase golf products in a sophisticated, modular, and responsive way. The project is built using React with a focus on component reusability and a well-defined design system.
+
+## Key Features
+- **Modular Component Structure**: All components are self-contained to ensure reusability and maintainability.
+- **Design System**: A centralized design system for consistent styling across the entire application, including colors, typography, and reusable elements.
+- **Responsive Design**: Components are built to adapt seamlessly across desktop, tablet, and mobile screens using SCSS.
+
+## Project Structure
+The project follows a structured folder layout to maintain modularity:
+- **public/**: Static assets like the root HTML file, images, and the favicon.
+- **src/**: Contains all application code.
+  - **assets/**: Images, fonts, and global styles.
+  - **components/**: Modular components, further divided by features and shared elements.
+  - **context/**: Shared state management using React Context.
+  - **design-system/**: Centralized design system including colors, typography, spacing, and theming.
+  - **hooks/**: Custom hooks for managing state, responsiveness, and scrolling behaviors.
+  - **layouts/**: Layout components like the main layout used across multiple pages.
+  - **pages/**: High-level pages that bring various components together.
+- **App.js & index.js**: Entry points for the React application and setting up global settings.
+
+## Guidelines for Developing New Components
+- **Adhere to Modular Design**: Each component should be self-contained with its logic, styles, and assets. Place the component in the `components/` folder under the relevant feature section.
+- **Follow the Design System**: Utilize existing color and typography values from `design-system/colors.js` and `design-system/typography.js`. This helps maintain consistency across all components.
+- **Use SCSS Modules**: Create styles for each component using SCSS modules to ensure that styles are scoped locally and prevent global conflicts.
+- **Reusability**: Ensure that components are reusable wherever possible. Use shared components such as `Button.js`, `InputField.js`, etc., to avoid repeating the same functionality.
+- **Media Queries for Responsiveness**: Use mixins from `assets/styles/mixins.scss` to add responsive behaviors so that the application looks great on all screen sizes.
+- **Document Changes**: Update `README.md` if you add significant new features or components, especially if they introduce new patterns or conventions.
+## Contributing
+- **Branching Strategy**: Use feature branches for development and submit pull requests for review before merging into the main branch.
+- **Code Consistency**: Follow the existing patterns and conventions for components and styles. Maintain consistency in naming conventions, structure, and design.
+- **Testing**: Test your component on multiple screen sizes to ensure that responsiveness is properly implemented.
+
+## Getting Started
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd multitech-golf-website
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm start
+   ```
+
+## Available Scripts
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm test`: Launches the test runner.
+
+## License
+This project is licensed under the MIT License.
