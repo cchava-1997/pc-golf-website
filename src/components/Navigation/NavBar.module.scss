@@ -1,0 +1,24 @@
+@import '../../assets/styles/variables.scss';
+
+.vertical-nav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin: 20px 0;
+      a {
+        text-decoration: none;
+        color: $primary-color; // Now it can find $primary-color
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+  
