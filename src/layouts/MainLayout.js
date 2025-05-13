@@ -1,11 +1,13 @@
 import React from 'react';
-import VerticalNavBar from '../components/Navigation/VerticalNavBar';
+
 import './MainLayout.module.scss';
+import Header from '../components/Navigation/Header/Header'
+
 
 const MainLayout = ({ children }) => {
   return (
     <div className="main-layout">
-      <VerticalNavBar />
+      <Header />
       <div className="content">
         {children}
       </div>

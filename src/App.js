@@ -5,13 +5,10 @@ import HomePage from './pages/HomePage';
 
 function App() {
   return (
-      // <MainLayout>
-      //   <HomePage />
-      // </MainLayout>
-      <div>
-      <h1>Welcome to PC Golf Website</h1>
-      <p>Your app is working!</p>
-    </div>
+      <MainLayout>
+      <HomePage />
+      </MainLayout>
+      
     );
   }
 

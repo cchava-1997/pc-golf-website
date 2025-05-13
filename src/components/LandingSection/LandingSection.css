@@ -1,0 +1,68 @@
+
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('https://via.placeholder.com/1200x800?text=Golf+Background') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vertical-text-container {
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: center left;
+  font-size: 24px;
+  font-weight: 700;
+  color: #482828;
+  opacity: 0.9;
+  letter-spacing: 2px;
+}
+
+.vertical-text-container.left {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.vertical-text-container.right {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.hero-center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.question-mark {
+  font-size: 72px;
+  color: #fff;
+  font-weight: bold;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
