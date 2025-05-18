@@ -1,0 +1,14 @@
+.mat-scroll-section {
+    height: 200vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scroll-mat-image {
+    width: 20vw;
+    transform-origin: center;
+    transition: transform 0.5s ease;
+  }
+  
