@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pc-golf-website/static/css/main.aa7d7da7.css",
+    "main.js": "/pc-golf-website/static/js/main.3c098ee7.js",
+    "static/js/488.b573ae44.chunk.js": "/pc-golf-website/static/js/488.b573ae44.chunk.js",
+    "static/media/golf-hero.webm": "/pc-golf-website/static/media/golf-hero.c3f029e2aab3c2a45f16.webm",
+    "static/media/Grass image.png": "/pc-golf-website/static/media/Grass image.07750effd30dd85fcc88.png",
+    "static/media/multitech-logo.png": "/pc-golf-website/static/media/multitech-logo.694dad7b798bba70fe2c.png",
+    "static/media/logo.svg": "/pc-golf-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pc-golf-website/index.html",
+    "main.aa7d7da7.css.map": "/pc-golf-website/static/css/main.aa7d7da7.css.map",
+    "main.3c098ee7.js.map": "/pc-golf-website/static/js/main.3c098ee7.js.map",
+    "488.b573ae44.chunk.js.map": "/pc-golf-website/static/js/488.b573ae44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa7d7da7.css",
+    "static/js/main.3c098ee7.js"
+  ]
+}
